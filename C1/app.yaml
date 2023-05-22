@@ -1,0 +1,16 @@
+runtime: python
+#Here we have set runtime: python, it means that you want to use the Python runtime environment for your 
+#application. This indicates that your application is written in Python and requires the corresponding 
+#Python runtime to execute.
+api_version: 1
+#The api_version field indicates the version of the configuration schema that the app.yaml file adheres to. 
+#It defines the structure and format of the app.yaml file and its supported fields. 
+threadsafe: True
+#can process multiple threads or process requests at a same time
+handlers:
+#This line begins the section where you define the URL handlers for your application.
+- url: /
+  script: main.app
+#These lines define a URL handler for the root path ("/") of your application. When a request is made 
+#to the root path, it specifies that the main.py file should be used as the script to handle the request,
+#and main.app refers to the app variable or object within main.py that will handle the request.

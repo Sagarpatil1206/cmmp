@@ -1,0 +1,7 @@
+app.yaml file:
+    The app.yaml file is a configuration file used by App Engine to define the settings and behavior of your application when it is deployed and running on the platform.
+    It specifies various parameters such as the runtime environment, URL handlers, scaling settings, service dependencies, and more.
+    The app.yaml file is written in YAML (YAML Ain't Markup Language) format, which is a human-readable data serialization format.
+
+To summarize, the app.yaml file is a configuration file that specifies various settings for your application when deployed on Google App Engine, 
+while the main.py file contains the main code and logic of your application.
